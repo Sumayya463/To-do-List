@@ -1,0 +1,75 @@
+#container{
+   
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+    #to-doList{
+        min-height: 300px;
+        height: var('my-list');
+        width: 300px;
+        background-color: rgb(255, 224, 113);
+       
+        
+        h1{
+            margin-left: 25px;
+            font-family: 'Courier New', Courier, monospace;
+            display: flex;
+            align-items: center;
+
+        }
+
+        img{
+            height: 30px;
+            width: 30px;
+            border-radius: 20px;
+            margin-left: 10px;
+        
+            
+        }
+        button{
+            margin-left: 10px;
+            font-family: 'Courier New', Courier, monospace;
+            background-color: black;
+             color: white;
+           
+        }
+        .btn{
+            background-color: red;
+            border:none;
+            height: 20px;
+            width: 20px;
+            border-radius: 20px;
+        }
+        ul{
+            list-style-type: none;
+            margin-left: -15px;
+            .line{
+                text-decoration: line-through;
+            }
+            li{
+                margin-bottom: 8px;
+            }
+            .Completed{
+                text-decoration: line-through;
+                color: grey;
+            }
+           
+        }
+
+        #input{
+            margin-left: 25px;
+            margin-bottom: 10px;
+            width: 150px;
+            background-color: black;
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+
+          
+        }
+    }
+
+}
+
